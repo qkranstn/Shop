@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈화면</title>
+</head>
+
+<style>
+
+    div{
+        border: 1px solid black;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .logo > a{
+        color: rgb(2, 150, 76);
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-bottom: 4px
+    }
+
+    .search > div{
+        /* 아래쪽에만 테두리 추가 */
+        border-bottom: 2px solid black;
+        width: 800px;
+    }
+
+    .search input{
+        width: 20%;
+    }
+
+
+</style>
+
+<body>
+    
+    <!-- 최 외곽 div -->
+    <div class="container">
+        <div class="navigation">
+            <div class="logo">
+                <a href="">샵샵</a>
+            </div>
+
+            <div class="search">
+                <div>
+                    <input type="text">
+                    <a href="">
+                        <img src="./htmlstudy/resources/images/돋보기.png" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+            <div></div>
+        </div>
+
+
+    </div>
+</body>
+</html>
